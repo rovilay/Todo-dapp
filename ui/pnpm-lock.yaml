@@ -11,14 +11,12 @@ specifiers:
   '@fortawesome/react-fontawesome': ^0.2.0
   '@mui/icons-material': ^5.10.9
   '@mui/material': ^5.10.9
+  '@mui/system': ^5.10.9
   '@mui/x-date-pickers': ^5.0.4
   '@tailwindcss/forms': ^0.5.3
   '@types/node': 18.8.3
   '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
-  AdapterDayjs: link:@mui/x-date-pickers/AdapterDayjs
-  DateTimePicker: link:@mui/x-date-pickers/DateTimePicker
-  LocalizationProvider: link:@mui/x-date-pickers/LocalizationProvider
   autoprefixer: ^10.4.12
   bignumber.js: ^9.1.0
   dayjs: ^1.11.5
@@ -45,11 +43,9 @@ dependencies:
   '@fortawesome/react-fontawesome': 0.2.0_6j2wdqxompc6mcokhxkpep2gqu
   '@mui/icons-material': 5.10.9_6usjrp3ypnzobhq35dcwvjrt3m
   '@mui/material': 5.10.9_ikcgkdnp4bn3rgptamntbhbo7e
-  '@mui/x-date-pickers': 5.0.4_vghas3k3jzcaoojwrr7sv66m4a
+  '@mui/system': 5.10.9_h33l6npc22g7vcra72cibfsrvm
+  '@mui/x-date-pickers': 5.0.4_25ysp2kj52xclvdwbmq4fgwcxq
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.1.8
-  AdapterDayjs: link:@mui/x-date-pickers/AdapterDayjs
-  DateTimePicker: link:@mui/x-date-pickers/DateTimePicker
-  LocalizationProvider: link:@mui/x-date-pickers/LocalizationProvider
   bignumber.js: 9.1.0
   dayjs: 1.11.5
   ethers: 5.7.1
@@ -1163,7 +1159,7 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@mui/x-date-pickers/5.0.4_vghas3k3jzcaoojwrr7sv66m4a:
+  /@mui/x-date-pickers/5.0.4_25ysp2kj52xclvdwbmq4fgwcxq:
     resolution: {integrity: sha512-Co4tbwqXSdHfR8UoZSHQpDZqnFdikzQr0lQPG2AjGh9BdB4EdY3YE2+sZyAltjk/AXxp5JzIWDZ2Kj83ClzjwA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1200,6 +1196,7 @@ packages:
       '@emotion/react': 11.10.4_bjroym7kxlcs2vvwnej4p3gzwu
       '@emotion/styled': 11.10.4_ogudqqhlstsi7uge4lir7ff3ty
       '@mui/material': 5.10.9_ikcgkdnp4bn3rgptamntbhbo7e
+      '@mui/system': 5.10.9_h33l6npc22g7vcra72cibfsrvm
       '@mui/utils': 5.10.9_react@18.2.0
       '@types/react-transition-group': 4.4.5
       clsx: 1.2.1
